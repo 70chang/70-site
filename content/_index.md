@@ -1,6 +1,7 @@
 ---
 title: 70-site トップページ
 description: 日々のレシピやメモのまとめページ
+layout: home   # Quartz v4 でトップページとして認識されるレイアウト
 ---
 
 ### 最近の記事
