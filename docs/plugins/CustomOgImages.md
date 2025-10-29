@@ -258,18 +258,18 @@ export const og: SocialImageOptions["Component"] = (
   const Li = [created, reading]
 
   return (
-    <div
-      style={{
-        position: "relative",
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "flex-start",
-        height: "100%",
-        width: "100%",
-        backgroundImage: `url("https://${cfg.baseUrl}/static/og-image.jpeg")`,
-        backgroundSize: "100% 100%",
-      }}
-    >
+   <div
+    style={% raw %}{{
+      position: "relative",
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "flex-start", 
+      height: "100%",
+      width: "100%",
+      backgroundImage: `url("https://${cfg.baseUrl}/static/og-image.jpeg")`,
+      backgroundSize: "100% 100%",
+    }}{% endraw %}
+  > 
       <div
         style={{
           position: "absolute",
